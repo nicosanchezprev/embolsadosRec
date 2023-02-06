@@ -4,35 +4,89 @@
     box-sizing: border-box;
 }
 
-.div-principal{
-    display: flex;
-    flex: 1;
-}
+@media screen and (min-width: 320px) {
+    .div-principal{
+        display: flex;
+        flex: 1;
+    }
 
-.productos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
-    width: 100%;
-}
-li{
-    list-style: none;
-}
-li{
-    padding-left: 2rem;
-	background-image: url(https://cdn-icons-png.flaticon.com/128/2769/2769448.png);
-	background-position: 0 50%;
-	background-size: 1.3rem 1.3rem;
-	background-repeat: no-repeat;
-}
+    .productos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
 
-aside{
-    background-color: #c0eef09a;
-    padding: 12px;
-    border-radius: 10px;
-}
+    .div-imagen{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-left: 10px;
+    }
 
-.imagen img{
-    border-radius: 10px;
+    li{
+        list-style: none;
+    }
+    li{
+        padding-left: 2rem;
+        background-image: url(https://cdn-icons-png.flaticon.com/128/2769/2769448.png);
+        background-position: 0 50%;
+        background-size: 1.3rem 1.3rem;
+        background-repeat: no-repeat;
+    }
+    
+    aside{
+        background-color: #c0eef09a;
+        padding: 12px;
+        border-radius: 10px;
+    }
+    
+    .imagen img{
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 720px) {
+    .div-principal{
+        display: flex;
+        flex: 1;
+    }
+    
+    .productos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        width: 100%;
+    }
+
+    .div-imagen{
+        display: flex;
+        flex-direction: row;
+        row-gap: 0px;
+        column-gap: 10px;
+        margin-left: 10px;
+    }
+
+    li{
+        list-style: none;
+    }
+    li{
+        padding-left: 2rem;
+        background-image: url(https://cdn-icons-png.flaticon.com/128/2769/2769448.png);
+        background-position: 0 50%;
+        background-size: 1.3rem 1.3rem;
+        background-repeat: no-repeat;
+    }
+    
+    aside{
+        background-color: #c0eef09a;
+        padding: 12px;
+        border-radius: 10px;
+    }
+    
+    .imagen img{
+        border-radius: 10px;
+    }
 }

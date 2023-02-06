@@ -3,115 +3,180 @@
     margin: 0;
     box-sizing: border-box;
 }
-.contacto{
-   display: flex;
-   justify-content: center;
-   flex: 1;
-}
 
-.contacto .imagen_contacto{
-   margin: 50px;
-
-}
-
-.div_label{
-    width: 100%;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.formulario{
-    margin: 50px 0;
-    width: auto;
-    background-color: #c0eef09a;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
-}
-
-input,textarea{
-    width: 350px;
-    resize: none;
-    border-radius: 10px;
-    border: none;
-    padding: 4px;
-    outline: none;
-}
-select{
-    border: none;
-    padding: 4px;
-    outline: none;
-}
-
-
-.boton_contacto {
-   display: flex;
-   justify-content: center;
-   width: 300px;
-}
-
-.boton_contacto {
-    border: 0;
-    font-size: 1.1rem;
-    border-radius: 10px;
-    margin-top: 10px;
-    transition: all ease 0.3s;
-}
-
-.boton_contacto:hover{
-    background-color: #141414cc;
-    color: #FFF;
-}
-
-.select-op{
-    border-radius: 10px;
-    margin: 10px 0 10px 0;
-}
-
-.select-title{
-    margin-top: 10px;
-}
-
-
-.radio-div{
-    display: flex;
-    align-items: center;
-}
-
-.radio-div input {
-    width: 10%;
-}
-
-.imagen_contacto img{
-    border-radius: 10px;
-}
-
-
-@media(max-width:910px ){
-  
+@media screen and (min-width: 320px) {
     .contacto{
-        flex-direction: column;
-        overflow-x: hidden;
-     }
-
-     .contacto .formulario{
-       margin: 50px auto;
-        width: 300px;
-      
-    
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        width: 100%;
     }
-    
+     
+    .contacto .imagen_contacto{
+        margin: 0px;
+    }
+     
+    .div_label{
+         width: 100%;
+         margin: 10px;
+         display: flex;
+         flex-direction: column;
+    }
+     
+    .formulario{
+         margin: 50px 0;
+         width: auto;
+         background-color: #c0eef09a;
+         padding: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         border-radius: 10px;
+    }
+     
     input,textarea{
-        width: 250px;
-        
+         width: 350px;
+         resize: none;
+         border-radius: 10px;
+         border: none;
+         padding: 4px;
+         outline: none;
     }
     
+    select{
+         border: none;
+         padding: 4px;
+         outline: none;
+    }
     
+    .boton_contacto {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
+     
+    .boton_contacto {
+        border: 0;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: all ease 0.3s;
+    }
+     
+    .boton_contacto:hover{
+        background-color: #141414cc;
+        color: #FFF;
+    }
+     
+    .select-op{
+        border-radius: 10px;
+        margin: 10px 0 10px 0;
+    }
+     
+    .select-title{
+        margin-top: 10px;
+    }
+     
+    .radio-div{
+        display: flex;
+        align-items: center;
+    }
+     
+    .radio-div input {
+        width: 10%;
+    }
+     
+    .imagen_contacto img{
+        border-radius: 10px;
+        display: none;
+    }
 }
 
-
+@media screen and (min-width: 720px) {
+    .contacto{
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+     
+     .contacto .imagen_contacto{
+        margin: 50px;
+    }
+     
+    .div_label{
+        width: 100%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .formulario{
+        margin: 10px 0;
+        width: auto;
+        background-color: #c0eef09a;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+     
+    input,textarea{
+        width: 350px;
+        resize: none;
+        border-radius: 10px;
+        border: none;
+        padding: 4px;
+        outline: none;
+    }
+    select{
+        border: none;
+        padding: 4px;
+        outline: none;
+    }
+     
+    .boton_contacto {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
+     
+    .boton_contacto {
+        border: 0;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        margin-top: 10px;
+        transition: all ease 0.3s;
+    }
+     
+    .boton_contacto:hover{
+        background-color: #141414cc;
+        color: #FFF;
+    }
+     
+    .select-op{
+        border-radius: 10px;
+        margin: 10px 0 10px 0;
+    }
+     
+    .select-title{
+        margin-top: 10px;
+    }
+     
+    .radio-div{
+        display: flex;
+        align-items: center;
+    }
+     
+    .radio-div input {
+        width: 10%;
+    }
+     
+    .imagen_contacto img{
+        border-radius: 10px;
+        display: block;
+    }
+}

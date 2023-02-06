@@ -5,6 +5,119 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media screen and (min-width: 320px) {
+    body{
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .carousel{
+        margin-top: 30px;
+    }
+    header{
+        background-color: #97dade;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        flex-direction: column;
+    }
+    
+    .div-principal{
+        height: 100%;
+    }
+    
+    header nav a {
+        color:#000;
+        margin-left: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all ease 0.3s;
+    }
+    
+    header nav a:hover{
+        color: #fff;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    
+    footer{
+        background-color:#dadada;
+        text-align: center;
+    }
+    footer p{
+        padding-top: 15px;
+    }
+    
+    #whatsapp img{
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        width: 70px;
+        transition: all ease-in-out 0.3s;
+    }
+    
+    #whatsapp img:hover{
+        transform:translateX(10px);
+    }
+    
+    .div-redes-link{
+        text-decoration: none;
+    }
+    
+    .div-redes{
+        margin-top: 10px;
+    }
+    
+    .img-redes{
+        width: 30px;
+        transition: all ease 0.5s;
+        border-radius: 10px;
+    }
+    
+    .img-redes:hover{
+        background-color: #86d5da;
+        transform: scale(1.1);
+    }
+    
+    .carousel-princ{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carousel-sec{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .carousel-item{
+        height: 300px;
+    }
+}
+
+
+@media screen and (min-width: 720px) {
+
 body{
     background-color: #fff;
     display: flex;
@@ -18,8 +131,8 @@ header{
     background-color: #97dade;
     height: 80px;
     display: flex;
-    justify-content: space-between; 
-    gap:400px;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .div-principal{
@@ -110,4 +223,5 @@ footer p{
 
 .carousel-item{
     height: 620px;
+}
 }
