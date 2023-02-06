@@ -14,8 +14,6 @@
     justify-content: center;
     align-items: center;
     column-gap: 20px;
-    background-color: #c0eef09a;
-    margin-top: 15px;
     width: 100%;
 }
 li{
@@ -29,6 +27,7 @@ li{
 	background-repeat: no-repeat;
 }
 
-.productos .imagen{
-    margin-top: 15px;
+aside{
+    background-color: #c0eef09a;
+    padding: 12px;
 }

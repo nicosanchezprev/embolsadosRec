@@ -6,7 +6,7 @@
 .contacto{
    display: flex;
    justify-content: center;
-   
+   flex: 1;
 }
 
 .contacto .imagen_contacto{
@@ -16,23 +16,35 @@
 
 .div_label{
     width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.contacto .formulario{
+.formulario{
     margin: 50px 0;
-    width: 400px;
+    width: auto;
     background-color: #c0eef09a;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 input,textarea{
     width: 350px;
     resize: none;
     border-radius: 10px;
+    border: none;
+    padding: 4px;
+    outline: none;
+}
+select{
+    border: none;
+    padding: 4px;
+    outline: none;
 }
 
 
@@ -42,12 +54,38 @@ input,textarea{
    width: 300px;
 }
 
-.boton_contacto input {
+.boton_contacto {
     border: 0;
-    width: 30%;
     font-size: 1.1rem;
     border-radius: 10px;
+    margin-top: 10px;
+    transition: all ease 0.3s;
 }
+
+.boton_contacto:hover{
+    background-color: #141414cc;
+    color: #FFF;
+}
+
+.select-op{
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.select-title{
+    margin-top: 10px;
+}
+
+
+.radio-div{
+    display: flex;
+    align-items: center;
+}
+
+.radio-div input {
+    width: 10%;
+}
+
 
 @media(max-width:910px ){
   

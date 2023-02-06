@@ -3,15 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 body{
-    background-color: #f8f0df;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     height: 100vh;
-
 }
 .carousel{
     margin-top: 50px;
@@ -24,6 +22,9 @@ header{
     gap:400px;
 }
 
+.div-principal{
+    height: 100%;
+}
 
 header nav a {
     color:#000;
@@ -31,7 +32,7 @@ header nav a {
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-
+    transition: all ease 0.3s;
 }
 
 header nav a:hover{
@@ -84,9 +85,40 @@ img{
 }
 
 footer{
-    background-color:#9D9D9D;
+    background-color:#dadada;
     text-align: center;
 }
 footer p{
     padding-top: 15px;
+}
+
+#whatsapp img{
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 70px;
+    transition: all ease-in-out 0.3s;
+}
+
+#whatsapp img:hover{
+    transform:translateX(10px);
+}
+
+.div-redes-link{
+    text-decoration: none;
+}
+
+.div-redes{
+    margin-top: 10px;
+}
+
+.img-redes{
+    width: 40px;
+    transition: all ease 0.5s;
+    border-radius: 10px;
+}
+
+.img-redes:hover{
+    background-color: #86d5da;
+    transform: scale(1.1);
 }
