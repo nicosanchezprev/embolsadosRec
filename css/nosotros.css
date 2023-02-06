@@ -5,7 +5,7 @@
 }
 .div-principal{
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 100px;
     row-gap: 30px;
     flex-direction: column;
@@ -19,13 +19,26 @@
     justify-content: center;
 }
 
+.imagen img{
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
 
-.nosotros .descripcion{
+.descripcion{
     width: 30%;
     background-color: #c0eef09a;
     padding: 0 15px 0 15px;
     text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
+
+
 
 .nosotros .descripcion p{
     padding: 10px;
@@ -37,6 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 
 video{

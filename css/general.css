@@ -18,7 +18,7 @@ header{
     background-color: #97dade;
     height: 80px;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: space-between; 
     gap:400px;
 }
 
@@ -43,6 +43,7 @@ header nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 20px;
 }
 
 img{
@@ -53,35 +54,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
-}
-
-@media(max-width:910px ){
-    header{
-        height: 120px;
-        display: flex;
-        justify-content: center;
-        gap:100px;
-    }
-
-
-    
-}
-
-
-@media(max-width:512px ){
-    header{
-        height: 120px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap:10px;
-    }
-
-    header nav {
-        margin-top:0; 
-    }
-    
+    padding-right: 20px;
 }
 
 footer{
@@ -121,4 +94,20 @@ footer p{
 .img-redes:hover{
     background-color: #86d5da;
     transform: scale(1.1);
+}
+
+.carousel-princ{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-sec{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.carousel-item{
+    height: 620px;
 }

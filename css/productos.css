@@ -30,4 +30,9 @@ li{
 aside{
     background-color: #c0eef09a;
     padding: 12px;
+    border-radius: 10px;
+}
+
+.imagen img{
+    border-radius: 10px;
 }

@@ -86,6 +86,10 @@ select{
     width: 10%;
 }
 
+.imagen_contacto img{
+    border-radius: 10px;
+}
+
 
 @media(max-width:910px ){
   
