@@ -25,7 +25,7 @@
     }
     
     .div-principal{
-        height: 100%;
+        height: 100vh;
     }
     
     header nav a {
@@ -100,18 +100,22 @@
     
     .carousel-princ{
         width: 100%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
     .carousel-sec{
-        width: 80%;
-        margin-bottom: 20px;
+        width: 90%;
     }
     
     .carousel-item{
-        height: 300px;
+        height: 200px;
+    }
+
+    .carousel button{
+        height: auto;
     }
 }
 
