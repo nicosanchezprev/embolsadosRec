@@ -17,7 +17,7 @@
     }
     header{
         background-color: #97dade;
-        height: 90px;
+        height: auto;
         display: flex;
         flex-direction: column;
         gap:0px;

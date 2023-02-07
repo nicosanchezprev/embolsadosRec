@@ -26,7 +26,7 @@
      
     .formulario{
          margin: 50px 0;
-         width: auto;
+         width: 80%;
          background-color: #c0eef09a;
          padding: 20px;
          display: flex;
@@ -37,7 +37,7 @@
     }
      
     input,textarea{
-         width: 350px;
+         width: 100%;
          resize: none;
          border-radius: 10px;
          border: none;
@@ -54,7 +54,7 @@
     .boton_contacto {
         display: flex;
         justify-content: center;
-        width: 300px;
+        width: 100%;
     }
      
     .boton_contacto {

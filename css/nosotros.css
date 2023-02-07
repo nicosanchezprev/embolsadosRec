@@ -57,15 +57,12 @@
     }
     
     video{
-        width: 400px;
+        width: 280px;
     }
 }
 @media screen and (min-width: 720px) {
     .div-principal{
         display: flex;
-        margin-top: 150px;
-        margin-bottom: 100px;
-        row-gap: 30px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -75,6 +72,7 @@
     .nosotros{
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
     
     .imagen img{
@@ -85,6 +83,7 @@
     
     .descripcion{
         width: 30%;
+        height: 100%;
         background-color: #c0eef09a;
         padding: 0 15px 0 15px;
         text-align: justify;
